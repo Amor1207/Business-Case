@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1748BA2-FBC4-D24E-D5D7-F0D58DCAAA9E" name="CERTIFICATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1748BA2-FBC4-D24E-D5D7-F0D58DCAAA9E" name="YJJ_CERTIFICATION">
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-02 19:45:17 UTC</createdTime>
 <generatorID>07038AC9-3A07-44E2-0C4C-5B75FA9D1464</generatorID>
 <ownerDesignName>AS1_ERD</ownerDesignName>
+<ordsAlias>certification</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

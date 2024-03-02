@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88F0441A-4674-013D-ECFA-CBF0ED69379D" name="CANDIDATE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88F0441A-4674-013D-ECFA-CBF0ED69379D" name="YJJ_CANDIDATE">
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-02 18:59:54 UTC</createdTime>
 <ownerDesignName>AS1_ERD</ownerDesignName>
@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cLNAME" id="8A0D64E9-6B17-80D8-A12B-8D039733C791">
 <createdBy>ASUS</createdBy>
@@ -51,7 +52,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cADDRESS" id="E5D94942-5732-9243-5795-668E9067BB45">
 <createdBy>ASUS</createdBy>
@@ -138,8 +140,9 @@
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-02 19:00:31 UTC</createdTime>
 <ownerDesignName>AS1_ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

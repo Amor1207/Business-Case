@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DF21185-89A5-71DE-63FA-6C99FBEFF505" name="APPLICATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DF21185-89A5-71DE-63FA-6C99FBEFF505" name="YJJ_APPLICATION">
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-02 19:45:17 UTC</createdTime>
 <generatorID>C05A2DE8-4154-E1FC-A317-CB790521844D</generatorID>
 <ownerDesignName>AS1_ERD</ownerDesignName>
+<ordsAlias>application</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -40,7 +41,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="aACCEPTANCE" id="9CB52D77-8D28-22EE-D63A-6E0775AF87C7">

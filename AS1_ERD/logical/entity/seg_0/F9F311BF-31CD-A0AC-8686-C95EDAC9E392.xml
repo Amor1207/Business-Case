@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9F311BF-31CD-A0AC-8686-C95EDAC9E392" name="JOB">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9F311BF-31CD-A0AC-8686-C95EDAC9E392" name="YJJ_JOB">
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-02 19:30:24 UTC</createdTime>
 <ownerDesignName>AS1_ERD</ownerDesignName>
@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="jCOMPANY" id="87E6ADEC-F6A6-2B8B-1170-CDA41EA3518B">
 <createdBy>ASUS</createdBy>
@@ -64,7 +65,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="jSTATE" id="55CB875B-F8FB-947D-968F-E68970B0098A">
 <createdBy>ASUS</createdBy>
@@ -77,7 +79,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="jMINSAL" id="E85A9203-2DC3-120D-684E-688156936B63">
 <createdBy>ASUS</createdBy>
@@ -142,7 +145,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="jTERM" id="366F150E-0097-DBF8-3AB9-031DEBA7FCCC">
 <createdBy>ASUS</createdBy>
@@ -155,7 +159,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -163,8 +168,9 @@
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-02 19:31:08 UTC</createdTime>
 <ownerDesignName>AS1_ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

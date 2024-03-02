@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAE254A8-E652-BB1A-CA89-81BA8CE70468" name="JOB_STATE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAE254A8-E652-BB1A-CA89-81BA8CE70468" name="YJJ_JOB_STATE">
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-02 19:45:17 UTC</createdTime>
 <ownerDesignName>AS1_ERD</ownerDesignName>

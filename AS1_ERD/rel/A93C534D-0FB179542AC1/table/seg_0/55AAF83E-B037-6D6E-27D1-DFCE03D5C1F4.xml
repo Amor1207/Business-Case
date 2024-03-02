@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55AAF83E-B037-6D6E-27D1-DFCE03D5C1F4" name="CANDIDATE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55AAF83E-B037-6D6E-27D1-DFCE03D5C1F4" name="YJJ_CANDIDATE">
 <createdBy>ASUS</createdBy>
 <createdTime>2024-03-02 19:45:17 UTC</createdTime>
 <generatorID>88F0441A-4674-013D-ECFA-CBF0ED69379D</generatorID>
 <ownerDesignName>AS1_ERD</ownerDesignName>
+<ordsAlias>candidate</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -28,7 +29,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cLNAME" id="B0DD0F79-5634-5A1E-284D-FB37E002B3C3">
@@ -40,7 +42,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cADDRESS" id="6AE79076-AB5E-5E90-3250-C642F8AA2AA4">
