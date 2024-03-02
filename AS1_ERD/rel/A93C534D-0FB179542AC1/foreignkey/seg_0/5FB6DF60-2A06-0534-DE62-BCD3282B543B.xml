@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5FB6DF60-2A06-0534-DE62-BCD3282B543B" containerWithKeyObject="1DF21185-89A5-71DE-63FA-6C99FBEFF505" localFKIndex="1057C011-C859-46A3-E684-84847025F1E3" name="APPLICATION_CANDIDATE_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>C0929E3F-D584-0CBE-5B70-C0641DD83FEC</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<referredTableLongName>CANDIDATE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55AAF83E-B037-6D6E-27D1-DFCE03D5C1F4</referredTableID>
+<keyObject>D75AF8CC-3302-F581-5153-2BCC23FDBCD4</keyObject>
+<referredKeyID>D75AF8CC-3302-F581-5153-2BCC23FDBCD4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

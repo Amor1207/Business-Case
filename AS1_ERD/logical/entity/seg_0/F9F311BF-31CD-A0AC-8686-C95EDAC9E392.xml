@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9F311BF-31CD-A0AC-8686-C95EDAC9E392" name="JOB">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:30:24 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="jID" id="A71C3BB4-3F42-9716-C234-3281ECCB7947">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:30:36 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jNAME" id="7EC6E71F-00D8-CF65-5821-8ADA6458913C">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:30:48 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jCOMPANY" id="87E6ADEC-F6A6-2B8B-1170-CDA41EA3518B">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:31:09 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jCITY" id="97E2CE59-0902-DAB1-D350-1A9AC7C43992">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:31:23 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jSTATE" id="55CB875B-F8FB-947D-968F-E68970B0098A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:31:37 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jMINSAL" id="E85A9203-2DC3-120D-684E-688156936B63">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:32:00 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jMAXSAL" id="D199181E-DF68-30FF-3CFA-41D07D8D43C5">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:32:20 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jOPENDATE" id="824DA05B-D66B-5229-E81B-D85B84CD1341">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:32:43 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jCLOSEDATE" id="DDC682CA-FBF5-2794-5B00-3B18508E771A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:32:57 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jTYPE" id="F0314534-7F70-8AC1-CC79-2FC5B5B0437C">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:33:21 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jTERM" id="366F150E-0097-DBF8-3AB9-031DEBA7FCCC">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:33:35 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A0BB475-C742-D3B3-0C8F-F8FD62EE8740" name="JOB PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:31:08 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A71C3BB4-3F42-9716-C234-3281ECCB7947</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50814F2F-3368-CEE6-21EB-90FDEF01F5F9" name="JOB">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>F9F311BF-31CD-A0AC-8686-C95EDAC9E392</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jID" id="1ED8ED3B-E32F-0D9B-E445-488539D6AB3D">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>A71C3BB4-3F42-9716-C234-3281ECCB7947</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jNAME" id="B83E50DB-E78F-CF9B-50C3-A6095A231975">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>7EC6E71F-00D8-CF65-5821-8ADA6458913C</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jCOMPANY" id="BA0A11EF-FBBA-DCE5-188E-7464E7E480FB">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>87E6ADEC-F6A6-2B8B-1170-CDA41EA3518B</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jCITY" id="CEE9E992-989E-2CF0-7B1F-5B065CECFC69">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>97E2CE59-0902-DAB1-D350-1A9AC7C43992</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jSTATE" id="CBA1EFA1-F77C-F955-6C19-42CFC7B3DA47">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>55CB875B-F8FB-947D-968F-E68970B0098A</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jMINSAL" id="F008F310-A2A0-2066-A013-D1DE1DDE0794">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>E85A9203-2DC3-120D-684E-688156936B63</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jMAXSAL" id="E9A815B9-F179-7AA6-B843-F64085DA5D81">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>D199181E-DF68-30FF-3CFA-41D07D8D43C5</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jOPENDATE" id="C3BB51A5-F146-ABE1-C8BD-2CEBC513F0F5">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>824DA05B-D66B-5229-E81B-D85B84CD1341</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jCLOSEDATE" id="AD2F0D2A-1367-F29F-0F04-3B5F5D166CCC">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>DDC682CA-FBF5-2794-5B00-3B18508E771A</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jTYPE" id="BB6F0639-E74A-9BBE-B360-4FAE5B336D92">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>F0314534-7F70-8AC1-CC79-2FC5B5B0437C</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jTERM" id="0ED7EF01-A2FD-CFAD-DF7D-DB266C672CD3">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>366F150E-0097-DBF8-3AB9-031DEBA7FCCC</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B829608-CC31-AE70-FEFB-096EA8C6B009" name="JOB_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>9A0BB475-C742-D3B3-0C8F-F8FD62EE8740</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ED8ED3B-E32F-0D9B-E445-488539D6AB3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

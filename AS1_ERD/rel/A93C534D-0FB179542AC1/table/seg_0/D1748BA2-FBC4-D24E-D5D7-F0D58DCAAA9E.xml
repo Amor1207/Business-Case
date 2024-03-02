@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1748BA2-FBC4-D24E-D5D7-F0D58DCAAA9E" name="CERTIFICATION">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>07038AC9-3A07-44E2-0C4C-5B75FA9D1464</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="certID" id="35C0B74F-1E7F-3DEC-2E09-2D9F37D14410">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>C87BAC1D-F296-1C05-690B-3C1AC963EC1B</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cCERT_DATE" id="1AC7FFC2-4DD2-7994-9CB0-2791A3049C80">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>A7288627-E813-D452-9CD4-7FEDCE9A1447</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cCERT_NUMBER" id="D2C50DCA-3A30-5E00-03B9-213FE9874240">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>0AABE58F-8A60-CD1C-F8AB-E224E90003FD</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cCERT_ORG" id="A39349B3-B378-32F6-BC27-552CB3A95A10">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>E4564760-26FE-96DC-4081-92BD5BD00DC1</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cCERT_END_DATE" id="F20DAA90-63C1-44DF-3D40-D7EBEF90882B">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>FE3B78D2-0D35-C4E9-4857-970558087665</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANDIDATE_cID" id="87A12E93-270A-DE4A-33CF-9E08924EC6B4">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>DB669CBA-C58E-3264-5C49-0A7EAA668223</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79D9E5CF-5C0A-D95B-CA0F-7E47725296C7" referredColumn="7F7433D7-C2EE-7C76-493F-4455339EF468"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACF2112A-AC57-AC57-68A4-AF3ABD05CE71" name="CERTIFICATION_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>C909C651-0893-1DD3-C1B9-82DA420B88D3</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C0B74F-1E7F-3DEC-2E09-2D9F37D14410"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48289144-A5D2-77A9-C429-A33A3830FA02" name="CERTIFICATION_CANDIDATE_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>4063F97D-36B0-13EA-F667-6EBFE10662D6</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87A12E93-270A-DE4A-33CF-9E08924EC6B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

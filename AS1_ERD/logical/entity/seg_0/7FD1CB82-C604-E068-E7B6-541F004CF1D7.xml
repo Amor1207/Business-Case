@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FD1CB82-C604-E068-E7B6-541F004CF1D7" name="STATE">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:39:19 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sID" id="1DF0CF08-D6F3-F39E-40EF-E8F115A1D751">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:39:29 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sNAME" id="6D900C8A-03C1-D27F-2821-60B7473D0F2D">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:39:40 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACA01AA8-D29C-E47D-6FB3-313779017349" name="STATE PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:39:38 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1DF0CF08-D6F3-F39E-40EF-E8F115A1D751</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

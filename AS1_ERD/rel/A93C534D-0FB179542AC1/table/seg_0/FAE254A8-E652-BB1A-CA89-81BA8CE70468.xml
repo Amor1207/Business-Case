@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAE254A8-E652-BB1A-CA89-81BA8CE70468" name="JOB_STATE">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<ordsAlias>relation_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JOB_jID" id="C1FC9CDB-53BC-0156-5033-423414953E2E">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72260817-13FF-1177-A059-A3A20DC3B036" referredColumn="1ED8ED3B-E32F-0D9B-E445-488539D6AB3D"/>
+</associations>
+</Column>
+<Column name="STATE_sID" id="29584BBE-CCAE-6935-8C18-B3E585C71BAD">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F7D8912-2A71-866D-7796-00AB0F6A46D6" referredColumn="F785CAB4-6E8E-3213-22F7-9C16FD75E9DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C628424-AEBF-9FBF-CA8C-7E5C6A211610" name="Relation_4_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1FC9CDB-53BC-0156-5033-423414953E2E"/>
+<colUsage columnID="29584BBE-CCAE-6935-8C18-B3E585C71BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1877CD07-7476-91C3-742D-E3968267B2A2" name="Relation_4_JOB_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>5BFD81A0-D8ED-3C32-93F3-DEE0CF2A85B7</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1FC9CDB-53BC-0156-5033-423414953E2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B6BD2F7-621C-7A18-40E0-6D8572A231C6" name="Relation_4_STATE_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:45:17 UTC</createdTime>
+<generatorID>5BFD81A0-D8ED-3C32-93F3-DEE0CF2A85B7</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29584BBE-CCAE-6935-8C18-B3E585C71BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

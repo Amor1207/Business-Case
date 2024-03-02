@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AS1_ERD" id="3F609F42-F468-C6EB-46BE-FAF0D1F211D7" version="3.5">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 18:14:33 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3F609F42-F468-C6EB-46BE-FAF0D1F211D7</designId>
+</OSDM_Design>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C05A2DE8-4154-E1FC-A317-CB790521844D" name="APPLICATION">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:34:36 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="aID" id="1B3F33B0-0C65-9CBA-A75C-DC61365824B6">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:37:11 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aDATE" id="670C4783-F787-080E-548C-87E558A51EE2">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:37:18 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aSTATUS" id="AB1ECE36-4CEC-ECD4-F500-1B3EC6ACEC7E">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:37:25 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aACCEPTANCE" id="023E3ED8-5DC4-FFEE-9A54-1C5888488013">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:37:54 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cID" id="3884B109-E7AA-9678-CA31-202593B6940E">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:43:51 UTC</createdTime>
+<generatorID>C0929E3F-D584-0CBE-5B70-C0641DD83FEC</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<referedAttribute>D80E10FA-CF72-7DCF-D6DC-D06EE3A7C326</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jID" id="3604F80E-83D8-305A-41B9-CA7FF25AABD5">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:44:08 UTC</createdTime>
+<generatorID>13717308-00C1-258F-1745-CFF4DE9EC3BB</generatorID>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<referedAttribute>A71C3BB4-3F42-9716-C234-3281ECCB7947</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="397E42BC-90BE-1EC5-BB57-11CFC3CC39C4" name="APPLICATION PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-03-02 19:40:00 UTC</createdTime>
+<ownerDesignName>AS1_ERD</ownerDesignName>
+<engineerTo>
+<item key="A93C534D-27F6-19A4-0081-0FB179542AC1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B3F33B0-0C65-9CBA-A75C-DC61365824B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
